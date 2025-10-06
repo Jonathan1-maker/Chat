@@ -1,0 +1,69 @@
+# ==============================
+# 📦 Node.js & React .gitignore
+# ==============================
+
+# Dependency folders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output folders
+dist/
+build/
+client/build/
+server/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.pid
+*.seed
+
+# Cache & lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage / test outputs
+coverage/
+*.lcov
+.nyc_output/
+
+# Optional build tools
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Miscellaneous
+*.tgz
+*.zip
