@@ -4,13 +4,14 @@
   "description": "Modern chat + social app combining Instagram + Messenger + Facebook Feed",
   "main": "index.js",
   "scripts": {
-    "dev": "npx concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && npm run dev",
-    "client": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build",
-    "start": "cd backend && npm start"
-  },
-  "keywords": [
+  "client": "cd client && npm start",
+  "server": "cd server && node server.js",
+  "dev": "npx concurrently \"npm run server\" \"npm run client\"",
+  "build": "cd client && npm run build",
+  "start": "node server/server.js"
+}
+
+  "keywords":[
     "social",
     "chat",
     "messenger",
